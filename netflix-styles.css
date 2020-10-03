@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	color:white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin:0px;
+}
+.head{
+	background-image: url('https://irs.www.warnerbros.com/hero-banner-jpeg/movies/media/browser/inception_banner.jpg');
+	background-repeat: no-repeat;
+	height:400px;
+	background-size: cover;
+	overflow: hidden;
+	display: center;
+	width: 100%;
+	padding: 20px;
+}
+.no{
+	display: flex;
+	overflow-y: hidden;
+}
+.no > img {
+		  margin: 8px;
+		  transition : transform 0.3s;
+}
+.no > img:hover{
+	transform: scale(1.1)
+}
+.ver{
+	display: flex;
+	overflow-y: hidden;
+}
+.ver > img{
+	margin: 8px;
+	transition :transform 0.3s;
+}
+html{
+    overflow: scroll;
+     overflow-x: hidden;
+}
+::-webkit-scrollbar{
+	width:0px; /*for removing scrollbar */
+	background: transparent;
+}
+.ver > img:hover{
+	transform: scale(1.1)/*this will zoom the part ,it will go 
+	out of the view port */
+}
